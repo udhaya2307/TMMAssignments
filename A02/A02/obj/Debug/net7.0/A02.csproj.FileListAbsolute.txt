@@ -1,0 +1,15 @@
+D:\Work\Git\TMMAssignments\A02\A02\obj\Debug\net7.0\A02.csproj.AssemblyReference.cache
+D:\Work\Git\TMMAssignments\A02\A02\obj\Debug\net7.0\A02.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\Git\TMMAssignments\A02\A02\obj\Debug\net7.0\A02.AssemblyInfoInputs.cache
+D:\Work\Git\TMMAssignments\A02\A02\obj\Debug\net7.0\A02.AssemblyInfo.cs
+D:\Work\Git\TMMAssignments\A02\A02\obj\Debug\net7.0\A02.csproj.CoreCompileInputs.cache
+D:\Work\Git\TMMAssignments\A02\A02\bin\Debug\net7.0\A02.exe
+D:\Work\Git\TMMAssignments\A02\A02\bin\Debug\net7.0\A02.deps.json
+D:\Work\Git\TMMAssignments\A02\A02\bin\Debug\net7.0\A02.runtimeconfig.json
+D:\Work\Git\TMMAssignments\A02\A02\bin\Debug\net7.0\A02.dll
+D:\Work\Git\TMMAssignments\A02\A02\bin\Debug\net7.0\A02.pdb
+D:\Work\Git\TMMAssignments\A02\A02\obj\Debug\net7.0\A02.dll
+D:\Work\Git\TMMAssignments\A02\A02\obj\Debug\net7.0\refint\A02.dll
+D:\Work\Git\TMMAssignments\A02\A02\obj\Debug\net7.0\A02.pdb
+D:\Work\Git\TMMAssignments\A02\A02\obj\Debug\net7.0\A02.genruntimeconfig.cache
+D:\Work\Git\TMMAssignments\A02\A02\obj\Debug\net7.0\ref\A02.dll
