@@ -4,7 +4,7 @@ using System;
 
 public class Program
 {
-    static string DecimalToHexadecimal(int decimalNumber)
+    static void DecimalToHexadecimal(int decimalNumber)
     {
         string hex = "";
         while (decimalNumber > 0)
@@ -14,46 +14,39 @@ public class Program
             hex = hexDigit + hex;
             decimalNumber /= 16;
         }
-        return hex;
+        Console.WriteLine($"Decimal: {decimalNumber}, hexdecimal: {hex}");
     }
 
-     static string DecimalToBinary(int binary)
+    static void DecimalToBinary(int binary)
     {
         string result = "";
-        string bin = "";
-        while (binary > 0 )
+        while (binary > 0)
         {
             int remainder1 = binary % 2;
-            result = Convert.ToString(remainder1) + result;
+            result = remainder1 + result;
             binary /= 2;
-            
+
         }
+        var rem = 4 - (result.Length % 4);
+        if (rem != 4) result = new string('0', rem) + result;
         Console.WriteLine($"Binary: {result}");
-        return bin;
     }
 
 
 
-   
+
 
     static void Main()
     {
-        
-        string answer;
-        
         Console.Write("Input a Number : ");
-        answer = Console.ReadLine();
-
+        string answer = Console.ReadLine();
 
         int decimalNumber = Convert.ToInt32(answer);
-        string hexdecimalNumber = DecimalToHexadecimal(decimalNumber);
-        Console.WriteLine($"Decimal: {decimalNumber}, hexdecimal: {hexdecimalNumber}");
+        DecimalToHexadecimal(decimalNumber);
 
-        
+
         int binary = Convert.ToInt32(answer);
-        string bin = DecimalToBinary(binary);
-       
-
-
+        //Console.WriteLine(Convert.ToString(binary, 2));
+        DecimalToBinary(binary);
     }
 }
